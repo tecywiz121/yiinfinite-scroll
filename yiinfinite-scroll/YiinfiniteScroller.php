@@ -10,6 +10,8 @@
  * access all the pages.
  *
  * @author davi_alexandre
+ * @author Matt Cheale
+ * @author Sam Wilson
  */
 class YiinfiniteScroller extends CBasePager {
 
@@ -20,7 +22,8 @@ class YiinfiniteScroller extends CBasePager {
         'loadingText'   => null,
         'donetext'      => null,
         'itemSelector'  => null,
-        'errorCallback'  => null,
+        'errorCallback' => null,
+        'localMode'     => null,
     );
 
     private $_default_options = array(
